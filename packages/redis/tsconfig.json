@@ -1,0 +1,14 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "outDir": "./dist"
+  },
+  "include": [
+    "./index.ts"
+  ],
+  "typedocOptions": {
+    "entryPoints": [
+      "./index.ts"
+    ]
+  }
+}
